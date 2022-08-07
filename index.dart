@@ -2169,7 +2169,6 @@ class RubyPage extends StatelessWidget {
         ));
   }
 }
-//////
 
 name: flutter_class
 description: A new Flutter application.
@@ -2227,13 +2226,8 @@ void main() {
     expect(find.text('1'), findsOneWidget);
   });
 }
-//////////////////////////////////////
-최근에 firebase 관련 패키지들이 firebase_core를 사용하는 쪽으로 업데이트가 
-있었어서 
-admob 같은 경우에는 0.10.0 버전부터는 pubspec.yaml 에서 firebase_core 
-패키지도 함께 추가해줘야해요
-=> 이부분은 언젠간 해야됨
-///////////////////////////////////////////
+
+
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
